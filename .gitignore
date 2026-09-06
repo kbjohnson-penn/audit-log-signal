@@ -1,0 +1,18 @@
+# Data never goes in this repo (public). Keep audit logs and any derived tables out.
+*.csv
+*.bak
+*.xlsx
+*.parquet
+*.json
+
+# Local environment / build artifacts
+.venv/
+path/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Editor / OS / scratch
+.DS_Store
+Claude outputs/
